@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const var1;
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -19,7 +19,7 @@ const userSchema = new mongoose.Schema({
     },
     date: {
         type: Date,
-        default: Date.now
+        default: Date.now 
     }
 });
 
